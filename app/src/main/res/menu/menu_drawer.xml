@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group>
+        <item
+            android:id="@+id/camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Thông tin tài khoản" />
+
+        <item
+            android:id="@+id/gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Đổi mật khẩu" />
+
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/setting"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Upload hóa đơn" />
+
+        <item
+            android:id="@+id/report"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Báo cáo tổng hợp" />
+    </group>
+
+</menu>
